@@ -18,3 +18,13 @@ text-align: center;
     color: #923FEB;
 }
 
+
+a[href]{
+    text-decoration: none ;
+}
+
+[href^="https"]{
+    color: #EB3F3F;
+}
+[href$=".org"]{
+    background-color: hsl(50 33% 25% / 75%);}
